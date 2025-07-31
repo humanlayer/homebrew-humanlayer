@@ -1,8 +1,8 @@
 cask "codelayer" do
   version "0.1.0"
-  sha256 "YOUR_SHA256_HERE"  # Update after building DMG
+  sha256 "7720fe330ad7d845e6e67cec594e345abe63cc47f67d46f4d73e13636d0ba047"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/v#{version}/HumanLayer-#{version}-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/humanlayer/releases/download/20250731/CodeLayer_#{version}_aarch64.dmg",
       verified: "github.com/humanlayer/humanlayer/"
 
   name "CodeLayer"
@@ -14,17 +14,17 @@ cask "codelayer" do
     strategy :github_latest
   end
 
-  app "HumanLayer.app"
+  app "CodeLayer.app"
 
   # Create symlinks for bundled binaries in PATH
   # These binaries are located in the app bundle at Contents/Resources/bin/
-  binary "#{appdir}/HumanLayer.app/Contents/Resources/bin/humanlayer"
-  binary "#{appdir}/HumanLayer.app/Contents/Resources/bin/hld", target: "hld"
+  binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/humanlayer"
+  binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/hld", target: "hld"
 
   zap trash: [
-    "~/Library/Application Support/HumanLayer",
-    "~/Library/Preferences/dev.humanlayer.codelayer.plist",
-    "~/Library/Saved Application State/dev.humanlayer.codelayer.savedState",
+    "~/Library/Application Support/CodeLayer",
+    "~/Library/Preferences/dev.humanlayer.wui.plist",
+    "~/Library/Saved Application State/dev.humanlayer.wui.savedState",
     "~/.humanlayer/codelayer*.json",
     "~/.humanlayer/daemon*.db",
     "~/.humanlayer/daemon*.sock",
