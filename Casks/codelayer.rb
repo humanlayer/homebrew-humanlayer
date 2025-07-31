@@ -1,6 +1,6 @@
 cask "codelayer" do
   version "0.1.0"
-  sha256 "20162e33cbb656dd5accae38a39381ae6723a8501e2e2ed3c557308635ec2a09"
+  sha256 "50d7264ed2a3bd0ff73ded0204172d942f85cf101316c57756901a6bea0eb7ee"
 
   url "https://github.com/humanlayer/humanlayer/releases/download/20250731/CodeLayer_#{version}_aarch64.dmg",
       verified: "github.com/humanlayer/humanlayer/"
