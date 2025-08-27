@@ -1,6 +1,6 @@
 cask "codelayer-nightly" do
   version "20250827-nightly"
-  sha256 "253f912e588abb23a614ab54b1b3893c917890b13a4fc976edcc65d13dcf780c"
+  sha256 "1dfcef0f67bd2fdc0312680008a3a21ca9d63723b37b1affe2fdff1d757256d6"
 
   url "https://github.com/humanlayer/humanlayer/releases/download/20250827-nightly/CodeLayer-Nightly_0.1.0_aarch64.dmg",
       verified: "github.com/humanlayer/humanlayer/"
