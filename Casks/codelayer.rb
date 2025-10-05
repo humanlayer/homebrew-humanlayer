@@ -1,32 +1,34 @@
 cask "codelayer" do
-  version "0.1.0"
-  sha256 "fcfdca22a33838e2b6aeec08c98176908d8e84d272f46421cbb8f2f8ed0c1745"
+  version "0.11.1"
+  sha256 "5616dd0fcef2a2f51a25859fdd4f02eb8359e86487b1fd3b908d9352de4d3c47"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/20250802_000111/CodeLayer_#{version}_aarch64.dmg",
-      verified: "github.com/humanlayer/humanlayer/"
+  url "https://github.com/humanlayer/humanlayer/releases/download/v0.11.1/CodeLayer-darwin-arm64.dmg"
 
   name "CodeLayer"
-  desc "Desktop application for managing AI agent approvals and sessions"
-  homepage "https://humanlayer.dev/"
+  desc "Desktop application for HumanLayer AI approvals"
+  homepage "https://github.com/humanlayer/humanlayer"
 
   livecheck do
     url :url
     strategy :github_latest
+    regex(/v?(\d+(?:\.\d+)+)$/i)
   end
+
+  depends_on macos: ">= :monterey"
 
   app "CodeLayer.app"
 
-  # Create symlinks for bundled binaries in PATH
-  # These binaries are located in the app bundle at Contents/Resources/bin/
   binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/humanlayer"
-  binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/hld", target: "hld"
+  binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/hld"
 
   zap trash: [
-    "~/Library/Application Support/CodeLayer",
-    "~/Library/Preferences/dev.humanlayer.wui.plist",
-    "~/Library/Saved Application State/dev.humanlayer.wui.savedState",
-    "~/.humanlayer/codelayer*.json",
+    "~/.config/humanlayer/",
     "~/.humanlayer/daemon*.db",
     "~/.humanlayer/daemon*.sock",
+    "~/.humanlayer/logs/",
+    "~/Library/Application Support/CodeLayer/",
+    "~/Library/Logs/dev.humanlayer.wui/",
+    "~/Library/Preferences/dev.humanlayer.wui.plist",
+    "~/Library/Saved Application State/dev.humanlayer.wui.savedState",
   ]
 end
