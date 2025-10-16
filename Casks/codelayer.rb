@@ -1,8 +1,8 @@
 cask "codelayer" do
-  version "0.11.3"
-  sha256 "2c732ac64fdb077586c6953df9bf8aa316f710da77dad82696aaa65205e5b0ce"
+  version "0.12.0"
+  sha256 "ed117653afb58eab6b885d1d475ba543c6957000728097237477de0aeef0e0d6"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/v0.11.3/CodeLayer-darwin-arm64.dmg"
+  url "https://github.com/humanlayer/humanlayer/releases/download/v0.12.0/CodeLayer-darwin-arm64.dmg"
 
   name "CodeLayer"
   desc "Desktop application for HumanLayer AI approvals"
