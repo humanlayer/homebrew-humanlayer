@@ -19,6 +19,7 @@ cask "codelayer" do
   app "CodeLayer.app"
 
   binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/humanlayer"
+  binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/humanlayer", target: "codelayer"
   binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/hld"
 
   zap trash: [
