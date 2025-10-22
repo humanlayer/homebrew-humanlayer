@@ -1,9 +1,9 @@
 cask "codelayer-experimental" do
-  version "0.1.0-experimental-20251022224455"
-  sha256 "0ba66929ef1cda0a322e2ee3d617c738ecaa342067266b06ad8c3e13161cf170"
+  version "0.1.0-experimental-20251022231702"
+  sha256 "c07e472a7994fe18b53a4960e6d4ca1edd4e834a3442623316d82765e5541ef0"
 
-  url "https://github.com/humanlayer/synclayer/releases/download/experimental-0.1.0-experimental-20251022224455/CodeLayer-Experimental-darwin-arm64.dmg",
-      verified: "github.com/humanlayer/synclayer/"
+  url "https://github.com/humanlayer/humanlayer/releases/download/experimental-0.1.0-experimental-20251022231702/CodeLayer-Experimental-darwin-arm64.dmg",
+      verified: "github.com/humanlayer/humanlayer/"
 
   name "CodeLayer Experimental"
   desc "Experimental build of CodeLayer - Bleeding edge features from main branch"
