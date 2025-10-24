@@ -1,8 +1,8 @@
 cask "codelayer" do
-  version "0.13.1"
-  sha256 "6bc14431fc9458c537e67c72337ffc85ef27397139344118ad0f209b5972a919"
+  version "0.14.0"
+  sha256 "b02885bbade4b105d059101d46a0484a806ed948bbba48234d869b72c2ff4c6e"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/v0.13.1/CodeLayer-darwin-arm64.dmg"
+  url "https://github.com/humanlayer/humanlayer/releases/download/v0.14.0/CodeLayer-darwin-arm64.dmg"
 
   name "CodeLayer"
   desc "Desktop application for HumanLayer AI approvals"
@@ -19,6 +19,7 @@ cask "codelayer" do
   app "CodeLayer.app"
 
   binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/humanlayer"
+  binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/humanlayer", target: "codelayer"
   binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/hld"
 
   zap trash: [
