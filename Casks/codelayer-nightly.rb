@@ -1,8 +1,8 @@
 cask "codelayer-nightly" do
-  version "0.1.0-nightly-20251028221500"
-  sha256 "164146a7f9a4b5576fec14d512cba2c71b8ed3d5b066471cf4f54b7773ad8123"
+  version "0.1.0-nightly-20251028224947"
+  sha256 "d0c921822dc0878e51a0606c1280f8609ba77358c6785a6b99093aa7f28f376c"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/nightly-0.1.0-nightly-20251028221500/CodeLayer-Nightly-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/humanlayer/releases/download/nightly-0.1.0-nightly-20251028224947/CodeLayer-Nightly-darwin-arm64.dmg",
       verified: "github.com/humanlayer/humanlayer/"
 
   name "CodeLayer Nightly"
@@ -11,7 +11,8 @@ cask "codelayer-nightly" do
 
   app "CodeLayer-Nightly.app"
 
-  binary "#{appdir}/CodeLayer-Nightly.app/Contents/Resources/bin/humanlayer-nightly", target: "humanlayer-nightly"
+  binary "#{appdir}/CodeLayer-Nightly.app/Contents/Resources/bin/humanlayer", target: "humanlayer-nightly"
+  binary "#{appdir}/CodeLayer-Nightly.app/Contents/Resources/bin/humanlayer", target: "codelayer-nightly"
   binary "#{appdir}/CodeLayer-Nightly.app/Contents/Resources/bin/hld", target: "hld-nightly"
 
   zap trash: [
