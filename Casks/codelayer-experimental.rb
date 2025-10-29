@@ -1,8 +1,8 @@
 cask "codelayer-experimental" do
-  version "0.1.0-experimental-20251029043536"
-  sha256 "20a28065a6c3da82b24a863ccba78c942e8d770a6302237f388795d43f0228cc"
+  version "0.1.0-experimental-20251029055403"
+  sha256 "bb810d776ad45f18159445982a4610f61ff92105c1675d5a3db119a64e2ed24a"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/experimental-0.1.0-experimental-20251029043536/CodeLayer-Experimental-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/humanlayer/releases/download/experimental-0.1.0-experimental-20251029055403/CodeLayer-Experimental-darwin-arm64.dmg",
       verified: "github.com/humanlayer/humanlayer/"
 
   name "CodeLayer Experimental"
@@ -13,7 +13,8 @@ cask "codelayer-experimental" do
 
   app "CodeLayer-Experimental.app"
 
-  binary "#{appdir}/CodeLayer-Experimental.app/Contents/Resources/bin/humanlayer-experimental", target: "humanlayer-experimental"
+  binary "#{appdir}/CodeLayer-Experimental.app/Contents/Resources/bin/humanlayer", target: "humanlayer-experimental"
+  binary "#{appdir}/CodeLayer-Experimental.app/Contents/Resources/bin/humanlayer", target: "codelayer-experimental"
   binary "#{appdir}/CodeLayer-Experimental.app/Contents/Resources/bin/hld", target: "hld-experimental"
 
   zap trash: [
