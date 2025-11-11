@@ -1,13 +1,20 @@
 cask "codelayer" do
-  version "0.16.2"
-  sha256 "5a07b3b6e45ef7d31cb51cc77b53b3f0803da6f22a07bfa0997e0d9fb0996a13"
+  version "0.17.0"
+  sha256 "310b5afd12241c83c30d4cd5c9b54f6681e28a1f5d35ae5fac2f11f2bcd928cf"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/v0.16.2/CodeLayer-Stable-darwin-arm64.dmg",
-      verified: "github.com/humanlayer/humanlayer/"
+  url "https://github.com/humanlayer/humanlayer/releases/download/v0.17.0/CodeLayer-darwin-arm64.dmg"
 
   name "CodeLayer"
-  desc "AI coding agent powered by Claude"
-  homepage "https://humanlayer.dev/"
+  desc "Desktop application for HumanLayer AI approvals"
+  homepage "https://github.com/humanlayer/humanlayer"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+    regex(/v?(\d+(?:\.\d+)+)$/i)
+  end
+
+  depends_on macos: ">= :monterey"
 
   app "CodeLayer.app"
 
@@ -16,12 +23,13 @@ cask "codelayer" do
   binary "#{appdir}/CodeLayer.app/Contents/Resources/bin/hld"
 
   zap trash: [
-    "~/Library/Application Support/CodeLayer",
+    "~/.config/humanlayer/",
+    "~/.humanlayer/daemon*.db",
+    "~/.humanlayer/daemon*.sock",
+    "~/.humanlayer/logs/",
+    "~/Library/Application Support/CodeLayer/",
+    "~/Library/Logs/dev.humanlayer.wui/",
     "~/Library/Preferences/dev.humanlayer.wui.plist",
     "~/Library/Saved Application State/dev.humanlayer.wui.savedState",
-    "~/.humanlayer/codelayer*.json",
-    "~/.humanlayer/daemon.db",
-    "~/.humanlayer/daemon.sock",
-    "~/Library/Logs/dev.humanlayer.wui/",
   ]
 end
