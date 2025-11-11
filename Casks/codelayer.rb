@@ -1,6 +1,6 @@
 cask "codelayer" do
   version "0.16.2"
-  sha256 "bafe009b7764e4a4c020775b7a7d527097554f634497703501bb842fe85b1536"
+  sha256 "911dd50b34f75335abc558697e1fa508de78ab8cb40738fd3a06b9b394387df3"
 
   url "https://github.com/humanlayer/humanlayer/releases/download/v0.16.2/CodeLayer-darwin-arm64.dmg"
 
