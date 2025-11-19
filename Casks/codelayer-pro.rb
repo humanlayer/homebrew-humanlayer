@@ -1,8 +1,8 @@
 cask "codelayer-pro" do
-  version "0.0.4"
-  sha256 "d0e20a4828c803259fbf344fbf4aaa162d43ba8eb46cefada597aa60eb23db64"
+  version "0.0.5"
+  sha256 "79395d12068d8ab992867b96157deb36b08551db20428b43613e1030da2f2f17"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/pro-0.0.4/CodeLayer-Pro-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/humanlayer/releases/download/pro-0.0.5/CodeLayer-Pro-darwin-arm64.dmg",
       verified: "github.com/humanlayer/humanlayer/"
 
   name "CodeLayer Pro"
@@ -14,6 +14,7 @@ cask "codelayer-pro" do
   binary "#{appdir}/CodeLayer-Pro.app/Contents/Resources/bin/humanlayer", target: "humanlayer-pro"
   binary "#{appdir}/CodeLayer-Pro.app/Contents/Resources/bin/humanlayer", target: "codelayer-pro"
   binary "#{appdir}/CodeLayer-Pro.app/Contents/Resources/bin/hld", target: "hld-pro"
+  binary "#{appdir}/CodeLayer-Pro.app/Contents/Resources/bin/cld", target: "cld-pro"
 
   zap trash: [
     "~/Library/Application Support/CodeLayer-Pro",
@@ -23,5 +24,6 @@ cask "codelayer-pro" do
     "~/.humanlayer/daemon-pro.db",
     "~/.humanlayer/daemon-pro.sock",
     "~/Library/Logs/dev.humanlayer.wui.pro/",
+    "~/.humanlayer/logs/cld-pro-*.log",
   ]
 end
