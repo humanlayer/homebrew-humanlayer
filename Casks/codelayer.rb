@@ -1,8 +1,8 @@
 cask "codelayer" do
-  version "0.17.0"
-  sha256 "b00e6045923d64c2cee862e9dae35f94fe1e45aea7aa9bfb34c426bad111f1c1"
+  version "0.17.1"
+  sha256 "f8952ae5031aef4b89619e7a6d54a06cd0fe12e3b1893c5fb0956225cae1275b"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/v0.17.0/CodeLayer-Stable-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/humanlayer/releases/download/v0.17.1/CodeLayer-Stable-darwin-arm64.dmg",
       verified: "github.com/humanlayer/humanlayer/"
 
   name "CodeLayer"
