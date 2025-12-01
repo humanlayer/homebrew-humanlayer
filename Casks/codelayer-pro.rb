@@ -1,8 +1,8 @@
 cask "codelayer-pro" do
-  version "0.1.0"
-  sha256 "54a2e285ea64fbf63cce6e7d08dc6c849860a1edc16bd5eaac88fa04125ff05f"
+  version "0.18.0-pro"
+  sha256 "7a47076f1c8078395a3bd45030adaf05f11d4130623cffde88314db47f373fe9"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/pro-0.1.0/CodeLayer-Pro-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/humanlayer/releases/download/pro-0.18.0-pro/CodeLayer-Pro-darwin-arm64.dmg",
       verified: "github.com/humanlayer/humanlayer/"
 
   name "CodeLayer Pro"
