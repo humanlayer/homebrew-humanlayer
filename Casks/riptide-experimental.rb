@@ -1,8 +1,8 @@
 cask "riptide-experimental" do
-  version "20251227200859-experimental"
-  sha256 "a715ebee6f15a0735b739989b19328645b634189fb8cd28581a7cb3665aa1be0"
+  version "20251229205016-experimental"
+  sha256 "646ff46a2acdbc4082792add19d0f33962dbe9543ec686c9326b02adea1ae3a7"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-experimental-20251227200859-experimental/Riptide-Experimental-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-experimental-20251229205016-experimental/Riptide-Experimental-darwin-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
 
   name "Riptide-Experimental"
