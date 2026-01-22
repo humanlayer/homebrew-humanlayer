@@ -1,8 +1,8 @@
 cask "codelayer-experimental" do
-  version "0.1.0-experimental-21234679939"
-  sha256 "89e12fb38f2d657ba231e361cf10b7e433ee19df5c2b60427f819ace788616df"
+  version "0.1.0-experimental-21237336370"
+  sha256 "21228ceea940793fa49a714a7e9fee91b1a761778a78456fd31a0616f3f71c3b"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/experimental-0.1.0-experimental-21234679939/CodeLayer-Experimental-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/humanlayer/releases/download/experimental-0.1.0-experimental-21237336370/CodeLayer-Experimental-darwin-arm64.dmg",
       verified: "github.com/humanlayer/humanlayer/"
 
   name "CodeLayer Experimental"
