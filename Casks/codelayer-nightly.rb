@@ -1,8 +1,8 @@
 cask "codelayer-nightly" do
-  version "0.1.0-nightly-20260221141519"
-  sha256 "ebe018f0e5334ab85414e850518176a95e51219a7812627a05b25d47a81d1e76"
+  version "0.1.0-nightly-20260224144257"
+  sha256 "6213d3d39ddfd47300af4038568965639a44bdd55b92949f626ff3008bd8f05d"
 
-  url "https://github.com/humanlayer/humanlayer/releases/download/nightly-0.1.0-nightly-20260221141519/CodeLayer-Nightly-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/humanlayer/releases/download/nightly-0.1.0-nightly-20260224144257/CodeLayer-Nightly-darwin-arm64.dmg",
       verified: "github.com/humanlayer/humanlayer/"
 
   name "CodeLayer Nightly"
