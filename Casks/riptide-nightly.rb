@@ -1,8 +1,8 @@
 cask "riptide-nightly" do
-  version "20260228150726-nightly"
-  sha256 "db31f442783eeec49a06d9a7f59d24907a3e882af1cc26176bbc59a56ea7d90a"
+  version "20260301150753-nightly"
+  sha256 "086890ec52536893ceef9cd28a9f65a75718844e5a2fafc72e369c562d694359"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-nightly-20260228150726-nightly/Riptide-Nightly-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-nightly-20260301150753-nightly/Riptide-Nightly-darwin-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
 
   name "Riptide-Nightly"
