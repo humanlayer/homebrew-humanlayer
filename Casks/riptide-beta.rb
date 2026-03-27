@@ -1,8 +1,8 @@
 cask "riptide-beta" do
-  version "20260320041012-beta"
-  sha256 "8e893a0c0d61eefc289c26f598f7931c84deac66a46054e17a128e2ba9f0b91e"
+  version "0.10.1"
+  sha256 "ec3d01befa5e041ba438abb434c38416762ed3f762505bd4a396e97d0416fac7"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-beta-20260320041012-beta/Riptide-Beta-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-beta-v0.10.1-20260327204408/Riptide-Beta-darwin-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
 
   name "Riptide-Beta"
@@ -12,6 +12,8 @@ cask "riptide-beta" do
   app "Riptide-Beta.app"
 
   binary "#{appdir}/Riptide-Beta.app/Contents/Resources/bin/riptided", target: "riptided-beta"
+
+  auto_updates true
 
   zap trash: [
     "~/Library/Application Support/Riptide-Beta",
