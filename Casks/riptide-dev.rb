@@ -1,8 +1,8 @@
 cask "riptide-dev" do
-  version "0.72.0"
-  sha256 "5413a872a00ac87b7b6ff38e49586a67a8586e2f0752f7e28aef4b175c99830b"
+  version "0.73.0"
+  sha256 "e43101dd7d57fdfe4136519bfb16df28dd13239c2d31371d14ff6965ad21f666"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-dev-v0.72.0-20260511184919/Riptide-Dev-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-dev-v0.73.0-20260511221129/Riptide-Dev-darwin-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
 
   name "Riptide-Dev"
