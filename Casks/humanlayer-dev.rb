@@ -1,19 +1,19 @@
-cask "riptide-dev" do
+cask "humanlayer-dev" do
   version "0.100.0"
   sha256 "16b7485f89408e1b90990eeaf183709ff1c310d212ca6333e064a7190bc073fa"
 
   url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-dev-v0.100.0-20260602045035/Riptide-Dev-darwin-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
-  name "Riptide-Dev"
+  name "HumanLayer-Dev"
   desc "Development build of HumanLayer pointing at dev environment"
   homepage "https://humanlayer.dev/"
 
   auto_updates true
-  conflicts_with cask: "humanlayer-dev"
+  conflicts_with cask: "riptide-dev"
   depends_on :macos
 
-  app "HumanLayer-Dev.app", target: "Riptide-Dev.app"
-  binary "#{appdir}/Riptide-Dev.app/Contents/Resources/bin/riptided", target: "riptided-dev"
+  app "HumanLayer-Dev.app"
+  binary "#{appdir}/HumanLayer-Dev.app/Contents/Resources/bin/riptided", target: "riptided-dev"
 
   zap trash: [
     "~/.humanlayer/riptide/logs/error-riptide-dev-*.jsonl",
