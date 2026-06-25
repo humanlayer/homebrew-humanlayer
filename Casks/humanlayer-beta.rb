@@ -1,8 +1,8 @@
 cask "humanlayer-beta" do
-  version "0.121.0"
-  sha256 "d8b278f730bc9509407cb91a730dd7e3b67243610aa9d09e262820f71f95e907"
+  version "0.122.1"
+  sha256 "31b347e4ab21c9bc3a3ce4e57686436bd2d0b7c56bf97278fd3d78cc25900ae5"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-beta-v0.121.0-20260624050940/Riptide-Beta-darwin-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-beta-v0.122.1-20260625002508/Riptide-Beta-darwin-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
   name "HumanLayer-Beta"
   desc "Beta build of HumanLayer pointing at beta environment"
