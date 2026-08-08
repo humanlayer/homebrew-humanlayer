@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 cask "riptide-electron-dev" do
-  version "0.1.11"
-  sha256 "b7aed245f27c759362a20ce362a8d9dac8be97363ee3b96726a84548582fc223"
+  version "0.1.12"
+  sha256 "52c9e4cba60593837ed7cfc225004b7f6570196a3458be4861ffe95dc0f2308a"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-dev-v0.1.11/HumanLayerElectronDev-0.1.11-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-dev-v0.1.12/HumanLayerElectronDev-0.1.12-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
   name "HumanLayerElectronDev"
   desc "Development Electron build of HumanLayer pointing at the dev environment"
