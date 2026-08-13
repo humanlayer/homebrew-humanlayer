@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 cask "riptide-electron" do
-  version "0.156.0"
-  sha256 "8788f1fa67a58c8e466cfab0dd0a5b0309c5fbc6f0ec126fe393067a8757e9e7"
+  version "0.157.0"
+  sha256 "ee719720b5cfdde5c319a0277fcad84fa5c70f05f4f5e6a3c68e1c4f9b1606d2"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-v0.156.0/HumanLayerElectron-0.156.0-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-v0.157.0/HumanLayerElectron-0.157.0-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
   name "HumanLayerElectron"
   desc "Electron edition of the HumanLayer AI coding agent powered by Claude"
