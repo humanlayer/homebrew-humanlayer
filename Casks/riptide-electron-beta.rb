@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 cask "riptide-electron-beta" do
-  version "0.156.0"
-  sha256 "7785ea2f5df70f272ea9f8144c5f0cafd40e8212253e7db5bc298e542743527f"
+  version "0.157.0"
+  sha256 "d16d5f1543d549f84d97d2e72666df15c7e8111f03a8ba6b871d1d13ff14504a"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-beta-v0.156.0-20260813032955/HumanLayerElectronBeta-0.156.0-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-beta-v0.157.0-20260813210102/HumanLayerElectronBeta-0.157.0-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
   name "HumanLayerElectronBeta"
   desc "Beta Electron build of HumanLayer pointing at the beta environment"
