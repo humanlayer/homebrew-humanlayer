@@ -1,17 +1,16 @@
 # frozen_string_literal: true
 
 cask "humanlayer-electron-dev" do
-  version "0.1.12"
-  sha256 "52c9e4cba60593837ed7cfc225004b7f6570196a3458be4861ffe95dc0f2308a"
+  version "0.157.4"
+  sha256 "41a6de8b3cfd49f29b8e21a21b70287f365d0a046fb168527883b7074881d562"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-dev-v0.1.12/HumanLayerElectronDev-0.1.12-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-dev-v0.157.4-20260813212956/HumanLayerElectronDev-0.157.4-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
   name "HumanLayerElectronDev"
   desc "Development Electron build of HumanLayer pointing at the dev environment"
   homepage "https://humanlayer.dev/"
 
   auto_updates true
-  conflicts_with cask: "riptide-electron-dev"
   depends_on arch: :arm64
   depends_on macos: :big_sur
 
@@ -19,8 +18,7 @@ cask "humanlayer-electron-dev" do
   binary "#{appdir}/HumanLayerElectronDev.app/Contents/Resources/bin/riptided", target: "riptided-electron-dev"
 
   zap trash: [
-    "~/.humanlayer/riptide/electron/dev",
-    "~/.humanlayer/riptide/logs/electron-dev-*.log",
+    "~/.humanlayer/electrondata/dev",
     "~/Library/Logs/com.humanlayer.electron.dev/",
     "~/Library/Preferences/com.humanlayer.electron.dev.plist",
     "~/Library/Saved Application State/com.humanlayer.electron.dev.savedState",
