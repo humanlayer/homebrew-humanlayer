@@ -2,9 +2,9 @@
 
 cask "humanlayer-electron-dev" do
   version "0.161.17"
-  sha256 "13e7d36d19968948ad470e37c7bf2774a25a93fe0d0ae342874782a6bc5dfa29"
+  sha256 "7e01b1e7b43d4f29b3cb5747a6f461f131f927506df3a403d330085ffbc99ce7"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-dev-v0.161.17-20260819212715/HumanLayerElectronDev-0.161.17-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-dev-v0.161.17-20260819214318/HumanLayerElectronDev-0.161.17-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
   name "HumanLayerElectronDev"
   desc "Development Electron build of HumanLayer pointing at the dev environment"
