@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 cask "humanlayer-electron" do
-  version "0.165.0"
-  sha256 "176cbdc795c06cba9123c8dec059884468ec4db0451eb843400e8c1583edeea6"
+  version "0.166.0"
+  sha256 "bed6d788b525de428afe880da4f2507a4e3ef6d704935912a47611898d002242"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-v0.165.0/HumanLayerElectron-0.165.0-arm64.dmg",
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-v0.166.0/HumanLayerElectron-0.166.0-arm64.dmg",
       verified: "github.com/humanlayer/homebrew-humanlayer/"
   name "HumanLayerElectron"
   desc "Electron edition of the HumanLayer AI coding agent powered by Claude"
