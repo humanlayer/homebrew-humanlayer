@@ -4,8 +4,7 @@ cask "riptide-electron" do
   version "0.157.0"
   sha256 "ee719720b5cfdde5c319a0277fcad84fa5c70f05f4f5e6a3c68e1c4f9b1606d2"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-v0.157.0/HumanLayerElectron-0.157.0-arm64.dmg",
-      verified: "github.com/humanlayer/homebrew-humanlayer/"
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-v0.157.0/HumanLayerElectron-0.157.0-arm64.dmg"
   name "HumanLayerElectron"
   desc "Electron edition of the HumanLayer AI coding agent powered by Claude"
   homepage "https://humanlayer.dev/"
