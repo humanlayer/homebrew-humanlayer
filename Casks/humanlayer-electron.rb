@@ -4,8 +4,7 @@ cask "humanlayer-electron" do
   version "0.171.0"
   sha256 "fc2411c72d675e44ad1b8bb55800ecbd676298da1918901bf6f2d4153f361a93"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-v0.171.0/HumanLayerElectron-0.171.0-arm64.dmg",
-      verified: "github.com/humanlayer/homebrew-humanlayer/"
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-v0.171.0/HumanLayerElectron-0.171.0-arm64.dmg"
   name "HumanLayerElectron"
   desc "Electron edition of the HumanLayer AI coding agent powered by Claude"
   homepage "https://humanlayer.dev/"

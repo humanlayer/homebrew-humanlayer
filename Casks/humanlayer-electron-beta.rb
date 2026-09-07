@@ -4,8 +4,7 @@ cask "humanlayer-electron-beta" do
   version "0.171.0"
   sha256 "ab03cd716d517afd3660bc266a3ee12e307b106abd8b71d58df373f55bb747a8"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-beta-v0.171.0-20260905205932/HumanLayerElectronBeta-0.171.0-arm64.dmg",
-      verified: "github.com/humanlayer/homebrew-humanlayer/"
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-beta-v0.171.0-20260905205932/HumanLayerElectronBeta-0.171.0-arm64.dmg"
   name "HumanLayerElectronBeta"
   desc "Beta Electron build of HumanLayer pointing at the beta environment"
   homepage "https://humanlayer.dev/"
