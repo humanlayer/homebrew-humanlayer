@@ -8,7 +8,8 @@ This is a public Homebrew tap for easy installation of HumanLayer tools. No auth
 
 ```bash
 # Install directly without adding the tap first
-brew install --cask --no-quarantine humanlayer/humanlayer/codelayer
+brew install --cask humanlayer/humanlayer/codelayer
+xattr -r -d com.apple.quarantine /Applications/CodeLayer.app
 ```
 
 ### Alternative: Add Tap First
@@ -18,7 +19,8 @@ brew install --cask --no-quarantine humanlayer/humanlayer/codelayer
 brew tap humanlayer/humanlayer
 
 # Install the cask
-brew install --cask --no-quarantine codelayer
+brew install --cask codelayer
+xattr -r -d com.apple.quarantine /Applications/CodeLayer.app
 ```
 
 ## PATH Configuration
@@ -57,12 +59,6 @@ brew upgrade --cask codelayer
 ```
 
 When upgrading, Homebrew automatically updates the symlinks to point to the new app version.
-
-## Set --no-quarantine as default
-
-```bash
-export HOMEBREW_CASK_OPTS="--no-quarantine"
-```
 
 ## Troubleshooting PATH Issues
 
