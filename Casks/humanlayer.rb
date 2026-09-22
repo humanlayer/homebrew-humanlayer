@@ -1,8 +1,8 @@
 cask "humanlayer" do
-  version "0.176.0"
-  sha256 "0aaff324876e7fee76bacfde145626631dad7dd31f49df78d0964db5c0645671"
+  version "0.177.0"
+  sha256 "d2c8544766aa94193f083bb0ddd6c750ad9aec4671001976b9586662e6ad1b52"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-v0.176.0/Riptide-darwin-arm64.dmg"
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-v0.177.0/Riptide-darwin-arm64.dmg"
   name "HumanLayer"
   desc "AI coding agent powered by Claude"
   homepage "https://humanlayer.dev/"
