@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 cask "humanlayer-electron-dev" do
-  version "0.181.1"
-  sha256 "5d5bce363e8a6056f066b353768d92ca52612099b1561baa6f3ca4d9636be0b5"
+  version "0.181.3"
+  sha256 "825b0d9f29dfa959403b7d2c34eb916104d39a74560b3993df12b10ae7332e76"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-dev-v0.181.1-20261006195155/HumanLayerElectronDev-0.181.1-arm64.dmg"
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/humanlayer-electron-dev-v0.181.3-20261007002536/HumanLayerElectronDev-0.181.3-arm64.dmg"
   name "HumanLayerElectronDev"
   desc "Development Electron build of HumanLayer pointing at the dev environment"
   homepage "https://humanlayer.dev/"
