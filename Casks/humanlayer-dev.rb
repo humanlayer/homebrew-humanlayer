@@ -1,8 +1,8 @@
 cask "humanlayer-dev" do
-  version "0.200.7"
-  sha256 "5d754e6e73274b6466ff10abfc981222a05cba4a5607341f6e8720cd4536337f"
+  version "0.200.9"
+  sha256 "5689101caceb21af9d6fcd4936cdd6a3e1c87e6ad66419c496618bad099db75f"
 
-  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-dev-v0.200.7-20261026134502/Riptide-Dev-darwin-arm64.dmg"
+  url "https://github.com/humanlayer/homebrew-humanlayer/releases/download/riptide-dev-v0.200.9-20261029031541/Riptide-Dev-darwin-arm64.dmg"
   name "HumanLayer-Dev"
   desc "Development build of HumanLayer pointing at dev environment"
   homepage "https://humanlayer.dev/"
